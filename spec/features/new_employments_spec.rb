@@ -8,5 +8,6 @@ feature 'New Employments' do
     click_on 'New Employment'
 
     expect(page).to have_content('New Employment')
+    
   end
 end
