@@ -1,8 +1,8 @@
 class Employment < ActiveRecord::Base
-  belongs_to :organizations
-  belongs_to :people
-  belongs_to :job_titles
-  belongs_to :locations
+  belongs_to :organization
+  belongs_to :person
+  belongs_to :job_title
+  belongs_to :location
 
 
 end
